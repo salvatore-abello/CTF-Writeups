@@ -77,8 +77,8 @@ Here, we override the open function with our class:
 
 ```python
 for dep in dependancies:
-	with open('/tmp/' + dep, 'r') as f:
-		exec(f.read())
+    with open('/tmp/' + dep, 'r') as f:
+        exec(f.read())
 ```
 
 Now that we've overridden the open function, the code passed above to print the flag will be executed here:
