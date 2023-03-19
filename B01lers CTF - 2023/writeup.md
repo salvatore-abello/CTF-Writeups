@@ -5,6 +5,8 @@
 nc ezclass.bctf23-codelab.kctf.cloud 1337
 ```
 
+This challenge, was my favorite. Thanks to the organizers for this wonderful CTF!
+
 ## Overview
 This challenge talks about a service that gives us the possibility to create and run classes.
 We can specify:
@@ -151,7 +153,4 @@ r.interactive()
 **EZ!**
 
 ![EZ!](https://i.imgur.com/2BC2X35.png)
-
-
-This was my favorite challenge. Thanks to the organizers for this wonderful CTF!
 
