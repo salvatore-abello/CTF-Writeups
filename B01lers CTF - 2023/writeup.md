@@ -5,7 +5,7 @@
 nc ezclass.bctf23-codelab.kctf.cloud 1337
 ```
 
-This challenge, was my favorite. Thanks to the organizers for this wonderful CTF!
+This challenge was my favorite. Thanks to the organizers for this wonderful CTF!
 
 ## Overview
 This challenge talks about a service that gives us the possibility to create and run classes.
