@@ -11,11 +11,11 @@ This challenge, was my favorite. Thanks to the organizers for this wonderful CTF
 This challenge talks about a service that gives us the possibility to create and run classes.
 We can specify:
 - The class name
-- A parent class
-- Number of methods
-- Method names
-- Method params
-- Method body
+- The parent class
+- The mumber of methods
+- The method names
+- The method params
+- The method bodies
 
 There is no blacklist except for this little one here: `().\n`
 We can run a class and also its dependencies. After executing the class, the service returns us an instance of the specified class.
