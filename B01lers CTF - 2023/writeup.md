@@ -51,7 +51,7 @@ We need to:
 - Profit
 
 The class will look like this:
-```
+```python
 class open(object):
     def __init__(filename,*args):
         pass
