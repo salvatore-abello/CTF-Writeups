@@ -183,7 +183,7 @@ Finally, we can send our payload to the admin.
 We can distinguish the username from the password easily, the correct credentials will be:
 
 - username: **n01_5y54dm1n**
-- password: **`7zzHuXRAp)uj@(qO@Zi0`**
+- password: **7zzHuXRAp)uj@(qO@Zi0**
 
 If we use these credentials to log in, we get the flag!
 
