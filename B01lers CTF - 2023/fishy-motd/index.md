@@ -1,5 +1,5 @@
 
-## fishy-motd (web, 263 points, 41 solves)
+# fishy-motd (web, 263 points, 41 solves)
 
 >I just created a tool to deploy messages to server admins in our company. They *love* clicking on them too!
 `http://ctf.b01lers.com:5110`
