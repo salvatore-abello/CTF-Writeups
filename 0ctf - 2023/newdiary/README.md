@@ -96,6 +96,8 @@ However, due to the `unsafe-inline` CSP policy, we're able to insert CSS by usin
 
 By doing a quick research it's clear that we need to steal the nonce using CSS.
 
+**Note:** It's possible to leak the nonce using CSS because it's inside a meta tag, otherwise it wouldn't be possibile.
+
 ## Exploit idea
 
 The exploit would be something similar to:
