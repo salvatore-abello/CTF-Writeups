@@ -25,7 +25,7 @@ We're able to:
 - Create new notes with a `title` (30 chars max) and `content` (256 chars max);
 - Share notes with everyone;
 - View notes from every user (as long as they shared it);
-- Report to an admin a note (ID and username it's needed).
+- Report to an admin a note (ID and username is needed).
 
 The shared notes are loaded on client-side:
 
