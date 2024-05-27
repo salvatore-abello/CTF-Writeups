@@ -7,7 +7,7 @@ nc 34.139.98.117 6669
 Author: ahh
 ```
 
-I partecipated to the first edition of `L3ak CTF` with `FoocHackz`. I solved this challenge, it wasn't hard but writing a working exploit took me at least one/two hours.
+I partecipated in the first edition of `L3ak CTF` with `FoocHackz`. I solved this challenge, it wasn't hard but writing a working exploit took me at least one/two hours.
 
 ## Index
  - [Index](#index)
