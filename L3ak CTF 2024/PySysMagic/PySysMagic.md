@@ -31,7 +31,7 @@ So, with that in mind, let's take a look at the source code
 
 ### Source
 
-We're given a bunch of files but these are the most important ones
+We're given a lot of files but these are the most important ones
  - `audit_sandbox.c` a C program which uses [Audit Hooks](https://peps.python.org/pep-0578/) to implement a whitelist sandbox. The only audit events we're allowed to use are `compile` and `exec`
  - `chall.py` the actual challenge script
 
