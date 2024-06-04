@@ -7,7 +7,7 @@ nc 34.139.98.117 6669
 Author: ahh
 ```
 
-I partecipated in the first edition of `L3ak CTF` with `FoocHackz`. I solved this challenge, it wasn't hard but writing a working exploit took me at least one/two hours.
+I partecipated to the first edition of `L3ak CTF` with `FoocHackz`. I solved this challenge, it wasn't hard but writing a working exploit took me at least one/two hours.
 
 ## Index
  - [Index](#index)
@@ -31,7 +31,7 @@ So, with that in mind, let's take a look at the source code
 
 ### Source
 
-We're given a lot of files but these are the most important ones
+We're given a bunch of files but these are the most important ones
  - `audit_sandbox.c` a C program which uses [Audit Hooks](https://peps.python.org/pep-0578/) to implement a whitelist sandbox. The only audit events we're allowed to use are `compile` and `exec`
  - `chall.py` the actual challenge script
 
@@ -205,7 +205,7 @@ This is not the intended solution. The author forgot to remove `eval` from the m
 
 What happens if all modules from `sys.modules` are removed? Is it still solvable?
 
-In the end, it was a fun challenge to solve ❤️
+At the end, it was a fun challenge to solve ❤️
 
 Thanks to the authors for the challenge and for the CTF in general. It's always nice to see pyjails in CTFs!
 
