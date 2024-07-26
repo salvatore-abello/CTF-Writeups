@@ -83,13 +83,9 @@ If there had been `exec` instead of `eval`, we could have used [decorators](http
 In this case, we can use a cool trick from the `PyMagic` challenge mentioned above
 
 ```py
-...
-
 def call_function(f, arg):
 	return (f"[[None for _.__class_getitem__ in [{f}]],"
 		f"_[{arg}]][True]")
-
-...
 ```
 
 Thanks to [`__class_getitem__`](https://peps.python.org/pep-0560/#class-getitem) we're able to call any function without using brackets
