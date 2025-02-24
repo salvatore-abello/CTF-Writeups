@@ -1,4 +1,4 @@
-# Locked Outisde
+# Baby Sandbox
 
 This is an easy client-side challenge
 
