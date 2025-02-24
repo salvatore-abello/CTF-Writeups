@@ -23,7 +23,7 @@ app.use((req, res, next) => {
 
  - `bot.js`: Contains the bot code. It's clear that the flag will be stored in local storage. We can supply a payload to the `visit` function, which will then be viewed by the bot. Note that the bot will sleep for a short period after viewing our payload.
 
-Finally, before inserting our payload, the flag will be placed inside a closed [https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_shadow_DOM](shadow DOM), making it inaccessible from JavaScript.
+Finally, before inserting our payload, the flag will be placed inside a closed [shadow DOM](https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_shadow_DOM), making it inaccessible from JavaScript.
 
 To bypass this restriction, we can use a deprecated feature: [document.execCommand](https://developer.mozilla.org/en-US/docs/Web/API/Document/execCommand)
 
